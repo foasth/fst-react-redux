@@ -6,7 +6,7 @@ const Login = () => {
         const router = useHistory()
         return (
             <div className={'login-main'}>
-                <h1>Login</h1>
+                <h1>LOGIN</h1>
                 <h2 onClick={()=>router.push('home')}>
                     GO TO HOME
                 </h2>
