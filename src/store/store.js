@@ -14,9 +14,9 @@ const counter = createSlice({
         setLoggedOut :(state)=>({...state,isLoggedOut:false})
     }
 })
-export const{setLoggedIn,setLoggedOut,incrementCounter}= counterSlice.actions;
+export const{setLoggedIn,setLoggedOut,incrementCounter}= counter.actions;
     const reducer = combineReducers({
-        counter: counterSlice.reducer
+        counter: counter.reducer
     })
 export default configureStore({
     reducer
